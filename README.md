@@ -1,6 +1,6 @@
 # subwaysurfers3d
 for fun
-
+```bash
 # Install dependencies (only the first time)
 npm install
 
@@ -9,3 +9,4 @@ npm run dev
 
 # Build for production in the dist/ directory
 npm run build
+```
