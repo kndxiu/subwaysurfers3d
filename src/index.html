@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Surfers 2.0</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <div class="buttons">
+        <button id="goUp" class="moveButton"><iconify-icon icon="akar-icons:chevron-up"></iconify-icon></button>
+        <button id="goLeft" class="moveButton"><iconify-icon icon="akar-icons:chevron-left"></iconify-icon></button>
+        <button id="goRight" class="moveButton"><iconify-icon icon="akar-icons:chevron-right"></iconify-icon></button>
+        <button id="goDown" class="moveButton"><iconify-icon icon="akar-icons:chevron-down"></iconify-icon></button>
+    </div>
+    <div id="overlay">
+        <div class="restart">
+            <h1>YOU DIED</h1>
+            <h2 id="score">Score: </h2>
+            <h2 id="gameTime">Game time: </h2>
+            <button id="restartBtn">RESTART</button>
+        </div>
+    </div>
+</body>
+</html>
